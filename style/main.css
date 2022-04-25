@@ -1,5 +1,5 @@
 :root{
-    --red:#e50914;
+    --red:#c4151e;
     --black:#141414;
     --gray:#AAA;
 }
@@ -10,13 +10,14 @@
 }
 
 /***********************BASE**************************/
-body{
+.colorbackground{
+    
     background: var(--black);
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #fff;
 }
 
-header .container{
+header .container-sm{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +34,7 @@ header .logo{
 
 header nav a{
     text-decoration: none;
-    color:#AAA;
+    color:var(--red);
     margin-right: 10px;
 
 }
@@ -42,11 +43,21 @@ header nav a:hover{
     color:#fff;
 }
 
+main .filmes{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 /***********************FILME PRINCIPAL**************************/
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./img/comodefenderbanner.jpg);
+    background: /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)*/ url(./img/wandavision\ header.jpeg);
 
     
     height: 400px;
@@ -58,9 +69,10 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .description{
+.filme-principal .sinopse{
     margin-top: 10px;
     margin-bottom: 40px;
+    color:#fff;
     
 }
 
@@ -69,6 +81,7 @@ header nav a:hover{
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-weight: bold;
+    color: #fff ;
 }
 
 .button{
@@ -96,12 +109,21 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.container{
+.carouselButton{
+    border:none;
+    cursor:pointer;
+
+}
+
+.container-sm{
+    display: flex;
+    flex-direction:column;
+    align-items : right;
     margin-left: 20px;
 
 }
 
-.filme-principal .container{
+.filme-principal .container-sm{
     width: 50%  ;
 }
 
@@ -113,6 +135,41 @@ header nav a:hover{
 
 .carousel{
     margin-top: 10px;
+}
+
+/*********MODAL************/
+.modalVingadores{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/avengers.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sinopseVingadores{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
 }
 
 

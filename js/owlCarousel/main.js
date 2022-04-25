@@ -14,3 +14,20 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function openModal(modalname){
+    let modal = document.getElementById(modalname);
+
+    if(typeof modal == 'undefined' || modal ===null)
+        return;
+        modal.style.display = "block"
+        document.body.style.overflow = 'hidden'
+}
+
+function closeModal(modalname){
+    let modal = document.getElementById(modalname);
+
+    if(typeof modal == 'undefined' || modal ===null)
+        return;
+        modal.style.display = "none"
+}

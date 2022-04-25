@@ -6,90 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet " href="./style/responsive.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     
     
     <link rel="stylesheet" href="./style/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./style/owlCarousel/owl.theme.default.min.css">
 
-    <title>NETFLIX CLONE</title>
+    <title>Marvel Mania</title>
 </head>
 <body>
+    <div class="colorbackground">
     <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+        <div class="container-sm">
+            <h2 class="logo">Marvel Mania</h2>
             <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#series">Séries</a>
             </nav>
         </div>
     </header>
     <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="title">Como Defender um Assassino</h3>
-                <p class="description">Sinopse
-                    A história conta sobre um grupo de ambiciosos estudantes de Direito e sua brilhante e misteriosa professora de defesa criminal, que se vê envolvida em uma trama de assassinato que vai agitar toda a universidade e mudar o curso de suas vidas.<br><br>
+        
+        <div class="filme-principal"></div>
+        <div class="filmes" id="filmes">Filmes</div>
+    
+        <div class="carousel">
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <button class="carouselButton" onclick="openModal('modalVingadores')">
+                    <img class="box-filme"src="./style/img/filmes/vingadorescapa.jpg">
+                </button>  
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/ultronCapa.jpg">
+                
+            </div>
+            <div class="item">
+                <img class="box-filme"src="/style/img/filmes/spider3capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/spider2capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/spidercapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/ironcapa.jpg">
+            </div>
+            <div class="item">  
+                <img class="box-filme"src="./style/img/filmes/iron2capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/iron3capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/thorcapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/filmes/thor2capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/thor3capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/capitaocapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/capitao2capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/capitao3capa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/capitamarvelcapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/formigacapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/formiga2capa.jpg">
+            </div> 
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/estranhocapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/ultimatocapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/guerrainfinitacapa.jpg">
+            </div> 
+            <div class="item">
+                <img class="box-filme"src="../style/img/filmes/viuvacapa.jpg">
+            </div>
+
+
+        </div>
+
+        <div class="filmes" id="series">Séries</div>
+    
+        <div class="carousel">
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme"src="./style/img/series/capa1.jpg">
+                
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/series/falcaocapa.jpg">
+                
+            </div>
+            <div class="item">
+                <img class="box-filme"src="/style/img/series/gaviaocapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/series/lokicapa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="./style/img/series/wandacapa.jpg">
+            </div>
+            
+
+
+        </div>
+    </main>
+    <div id="modalVingadores" class="modalVingadores">
+        <div class="modal-content">
+            <div class="container-sm">
+                <h3 class="title">Os Vingadores (2012)</h3>
+                <p class="sinopseVingadores">Sinopse
+                    Os maiores heróis da terra juntos.
+                    Sinopse
+                    Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.<br><br>
                     
-                    Criação<br>
-                    Peter Nowalk
+                    Criação<br><br>
+                    Joss Whedon
+                    Director, Screenplay, Story
+
+                    Jack Kirby
+
+                    Characters
+
+                    Zak Penn
+
+                    Story
                     
                     </p>
                 <div>
                     <button role="button"id="assistir" class="button">
                         <i class="fa-solid fa-play"></i>
-                        ASSISTIR AGORA
+                        Trailer
+                        <div></div>
                     </button>
                 
                     <button role="button"id="iformacoes" class="button">
                         <i class="fa-solid fa-circle-info"></i>
                         MAIS INFORMAÇÕES
                     </button>
+                    <button role="button"id="iformacoes" class="button" onclick="closeModal('modalVingadores')">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        VOLTAR
+                    </button>
                 </div>
             </div>
         </div>
-    </main>
-    <div class="carousel">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa1.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa2.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa3.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa4.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa5.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa6.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa7.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa8.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa9.jpg">
-            </div>
-            <div class="item">
-                <img class="box-filme"src="./style/img/capa10.jpg">
-            </div>
+    </div>
+    <div id="modal-trailer" class="modalTrailer">
+        <div class="modal-content-trailer">
+            <span class=""></span>
 
         </div>
     </div>
+    
     
     <script src="https://kit.fontawesome.com/b615f73525.js" crossorigin="anonymous"></script>
     <script src="./js/owlCarousel/jquery.min.js"></script>
     <script src="./js/owlCarousel/owl.carousel.min.js"></script>
     <script src="./js/owlCarousel/main.js"></script>
-
+</div>
 </body>
 </html>
