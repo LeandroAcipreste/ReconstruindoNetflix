@@ -99,6 +99,7 @@ main .filmes{
     cursor:pointer;
     transition: .3s ease all;
 }
+/*******************Botões**********************/
 
 .button:hover{
     background-color: white;
@@ -107,6 +108,14 @@ main .filmes{
 
 .button i{
     margin-right: 8px;
+}
+.close{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    float: right;
+    color: #c4151e;
+    margin-right: 250px;
+    cursor: pointer;
 }
 
 .carouselButton{
@@ -137,7 +146,7 @@ main .filmes{
     margin-top: 10px;
 }
 
-/*********MODAL************/
+/*********MODAL FILME-1************/
 .modalVingadores{
     background-color: rgba(0,0,0,.5);
     position: fixed;
@@ -165,6 +174,28 @@ main .filmes{
     align-items: flex-start;
 }
 
+.modal-content-trailer{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+
+.modal-content-descricao{
+    background:linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/avengers.jpg);
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: auto;
+
+    z-index: 999;
+}
+
 .sinopseVingadores{
     margin-top: 10px;
     margin-bottom: 40px;
@@ -172,6 +203,1518 @@ main .filmes{
     
 }
 
+/*********MODAL FILME-2************/
+
+.filme-2    {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/ultronbanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao-2{
+    background:linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/ultronbanner.jpg);
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: auto;
+
+    z-index: 999;
+}
+
+
+.sinopse-2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}   
+
+/*********MODAL FILME-3************/
+
+.filme-3   {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-3{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/spider3Banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-3{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}   
+
+/*********MODAL FILME-4************/
+
+.filme-4   {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-4{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/spider2Banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-3{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-5************/
+
+.filme-5   {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-5{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/spiderbanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-6************/
+
+.filme-6   {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-6{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/ironbaner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+/*********MODAL FILME-7************/
+
+.filme-7  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-7{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/ironMan2Banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-8************/
+
+.filme-8  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-8{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/ironman3banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-9************/
+
+.filme-9  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-9{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/thorbaner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-10************/
+
+.filme-10  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-10{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/thor2banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-11************/
+
+.filme-11  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-11{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/thor3banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-12************/
+
+.filme-12  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-12{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/capitaoAmericaBanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-13************/
+
+.filme-13  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-13{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/capitaoAmerica2banner.jpg    );
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-14************/
+
+.filme-14  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-14{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/capitaoAmerica3banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-15************/
+
+.filme-15  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-15{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/capitamarvelBanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-16************/
+
+.filme-16  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-16{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/formigabanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+} 
+
+/*********MODAL FILME-17************/
+
+.filme-17  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-17{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/formiga2banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+/*********MODAL FILME-18************/
+
+.filme-18  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-18{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/estranhobanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-19************/
+
+.filme-19  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-19{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/utimato2banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-20************/
+
+.filme-20  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-20{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/infinitabanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-21************/
+
+.filme-21  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-21{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/viuvabanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-22************/
+
+.filme-22  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-22{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/eternosbanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-23************/
+
+.filme-23  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-23{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/shangbanner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-24************/
+
+.filme-24  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-24{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/estranho2banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
+
+/*********MODAL FILME-25************/
+
+.filme-25  {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-25{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.80)100%), url(./img/filmes/thor4banner.jpg);
+
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modalTrailer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.modal-content-descricao{
+    
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width:100vw;
+    height:100vh;
+    display:none;
+
+    z-index: 999;
+}
+
+.sinopse-5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#fff;
+    
+}
 
 
 

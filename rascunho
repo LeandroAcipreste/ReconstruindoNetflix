@@ -1,111 +1,91 @@
-<div class="filme-principal">
-    <div class="container-sm">
-        <h3 class="title">Os Vingadores (2012)</h3>
-        <p class="sinopse">Sinopse
-            Os maiores heróis da terra juntos.
-            Sinopse
-            Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.<br><br>
+<div id="modalVingadores" class="modalVingadores">
+    <div class="modal-content">
+        <div class="container-sm">
+            <h3 class="title">Os Vingadores (2012)</h3>
+            <p class="sinopseVingadores">
+                Loki (Tom Hiddleston) retorna à Terra enviado pelos chitauri, uma raça alienígena que pretende dominar os humanos. Com a promessa de que será o soberano do planeta, ele rouba o cubo cósmico dentro de instalações da S.H.I.E.L.D. e, com isso, adquire grandes poderes. Loki os usa para controlar o dr. Erik Selvig (Stellan Skarsgard) e Clint Barton/Gavião Arqueiro (Jeremy Renner), que passam a trabalhar para ele. No intuito de contê-los, Nick Fury (Samuel L. Jackson) convoca um grupo de pessoas com grandes habilidades, mas que jamais haviam trabalhado juntas: Tony Stark/Homem de Ferro (Robert Downey Jr.), Steve Rogers/Capitão América (Chris Evans), Thor (Chris Hemsworth), Bruce Banner/Hulk (Mark Ruffalo) e Natasha Romanoff/Viúva Negra (Scarlett Johansson). Só que, apesar do grande perigo que a Terra corre, não é tão simples assim conter o ego e os interesses de cada um deles para que possam agir em grupo.<br><br>
+                
+                Roteiro Joss Whedon, Stan Lee<br>
+                Direção: Joss Whedon<br>
+                Elenco: Robert Downey Jr., Chris Evans, Mark Ruffalo
+                
+                </p>
+            <div>
+                <button role="button"id="assistir" class="button" data-toggle="modal" data-src="" data-target="#modal-trailer" onclick="openModal('modal-trailer')">
+                    <i class="fa-solid fa-play"></i>
+                    TRAILER
+                </button>
             
-            Criação<br><br>
-            Joss Whedon
-            Director, Screenplay, Story
+                <button role="button"id="iformacoes" class="button" onclick="openModalDescricao('modal-descricao')">
+                    <i class="fa-solid fa-circle-info"></i>
+                    ENREDO
+                </button>
+                <button role="button"id="" class="button" onclick="closeModal('modalVingadores')">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    VOLTAR
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
-            Jack Kirby
+<!----------ModalTrailer------------->
 
-            Characters
+<div id="modal-trailer" class="modalTrailer">
+    <div class="modal-content-trailer">
+        <button tyde="button" class="close" onclick="closeModal('modal-trailer')"data-dismiss="modalTrailer">X</button>
+        <iframe id="myVideo2"width="718" height="404" src="https://www.youtube.com/embed/pQFb4-7raMs" title="Homem-Aranha: Sem Volta Para Casa | Trailer Oficial Legendado | 16 de dezembro nos cinemas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 
-            Zak Penn
 
-            Story
+<!--------ModalDescrição------->
+<div id="modal-descricao" class="modal-descricao">
+    <div id="modal-content-descricao" class="modal-content-descricao">
+        <div class="descricao-header">
             
+            <h1 class="title">Os Vingadores</h1>
+        <div class="descricao-main">
+            <p class="sinopseVingadores">
+                O asgardiano Loki se encontra com o "Outro", o líder de uma raça extraterrestre conhecida como Chitauri. Em troca da recuperação do Tesseract,[N 1] uma poderosa fonte de energia de potencial desconhecido, o Outro promete a Loki um exército com o qual ele pode subjugar a Terra. Nick Fury, diretor da agência de espionagem S.H.I.E.L.D., chega a uma instalação de pesquisa remota, onde o físico Dr. Erik Selvig lidera uma equipe que está realizando experimentos no Tesseract. O Tesseract de repente é ativado e abre um buraco de minhoca, permitindo que Loki chegue a Terra. Loki rouba o Tesseract e usa seu cetro para escravizar Selvig e outros agentes, incluindo Clint Barton, para ajudá-lo.<br>
+
+Em resposta, Fury reativa a "Iniciativa Vingadores". A agente Natasha Romanoff vai a Calcutá para recrutar o Dr. Bruce Banner, este que pode rastrear o Tesseract através de suas emissões de radiação gama. Fury aborda Steve Rogers sobre os planos de recuperação do Tesseract, e o agente Phil Coulson visita Tony Stark para que ele averigue a pesquisa de Selvig. Loki está em Estugarda, onde Barton rouba o irídio necessário para estabilizar o poder do Tesseract, levando a um confronto com Rogers, Stark e Romanoff que termina com a rendição de Loki. Enquanto Loki é escoltado para a S.H.I.E.L.D., seu irmão adotivo Thor chega e o liberta, na esperança de convencê-lo a abandonar seu plano e retornar a Asgard. Stark e Rogers intervêm e Loki é levado para o Aeroporta-Aviões da S.H.I.E.L.D., onde é preso.<br>
+
+Os Vingadores ficam divididos tanto sobre como abordar Loki quanto à revelação de que a S.H.I.E.L.D. planeja aproveitar o Tesseract para desenvolver armas poderosas como um impedimento contra extraterrestres hostis. Enquanto eles discutem, os agentes de Loki atacam o Aeroporta-Aviões, e o estresse faz com que Banner se transforme em Hulk. Stark e Rogers trabalham para reiniciar o motor danificado, e Thor tenta parar a fúria de Hulk. Romanoff deixa Barton inconsciente, quebrando o controle da mente de Loki. Loki escapa depois de matar Coulson, e Fury usa a morte de Coulson para motivar os Vingadores a trabalharem em equipe. Loki usa o Tesseract e um gerador de buraco de minhoca que Selvig construiu para abrir um buraco de minhoca acima da Torre Stark para a frota Chitauri no espaço, fazendo uma invasão à cidade de Nova Iorque.<br>
+
+Rogers, Stark, Romanoff, Barton, Thor e Hulk se unem em defesa de Nova Iorque, e juntos os Vingadores lutam contra os Chitauri. Hulk vence Loki até a submissão. Romanoff vai até o gerador, onde Selvig, livre do controle mental de Loki, revela que o cetro de Loki pode desligar o gerador. Os superiores de Fury do Conselho de Segurança Mundial tentam acabar com a invasão lançando um míssil nuclear em Midtown Manhattan. Stark intercepta o míssil e o leva pelo buraco de minhoca em direção à frota Chitauri. O míssil detona, destruindo a nave-mãe Chitauri e desativando suas forças na Terra. O traje de Stark perde força e ele entra em queda livre, mas Hulk o salva. Na sequência, Thor retorna com Loki e o Tesseract para Asgard, onde Loki enfrentará sua justiça.<br>
+
+Em uma cena no meio dos créditos, o Outro certifica com seu mestre[N 2] sobre o ataque fracassado à Terra.
             </p>
-        <div>
-            <button role="button"id="assistir" class="button">
-                <i class="fa-solid fa-play"></i>
-                Trailer
-                <div></div>
-            </button>
-        
-            <button role="button"id="iformacoes" class="button">
-                <i class="fa-solid fa-circle-info"></i>
-                MAIS INFORMAÇÕES
-            </button>
         </div>
-    </div>
-
-    ------------------------------------MODAL
-    <div class="modal-overlay">
-    <div class="modal">
-        <div id="form">
-            <h2>Nova Transação</h2>
-            
-
-                    <div class="input-group actions">
-                    <a 
-                    onclick="Modal.close()"
-                    href="#" 
-                    class="button ok">OK</a>
-                    <button>Salvar</button>
-                </div>
-            </form>
+        <div clas="descricao-footer">
+            <button role="button"id="" class="button" onclick="closeModalDescricao('modal-descricao')">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                VOLTAR
+            </button>  
         </div>
     </div>
 </div>
-</div>
 
 
-        -----------------------------------CSS
 
-        .modal-overlay {
-            width: 100%;
-            height: 100%;
-        
-            background-color: rgba(0,0,0,0.7);
-        
-            position: fixed;
-            top: 0;
-        
-            display:flex;
-            align-items: center;
-            justify-content: center;
-        
-            opacity: 0;
-            visibility: hidden;
-        
-            z-index: 999;
-        }
-        
-        .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
-        
-        .modal {
-            background: #F0F2f5;
-            padding: 2.4rem;
-        
-            position: relative;
-            z-index: 1;
-        }
+//Modal da descrição//
 
-        ------------------------------------MODAL
-        .modal-content{
-            font-size: 16px;
-            background: /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)*/ url(./img/wandavision\ header.jpeg);
-        
-            
-            height: 400px;
-            background-size: cover;
-        
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-        }
-        
-        .sinopseVingadores{
-            margin-top: 10px;
-            margin-bottom: 40px;
-            color:#fff;
-            
-        }
+const openModalDescricao = () => {
+    let overlay = document.getElementById("modal-descricao");
+    let modal = document.getElementById("modal-content-descricao");
+    overlay.style.display = 'flex'
+    modal.style.display = 'flex'
+    setTimeout(() => { document.addEventListener('click', handleClickOutside, false) }, 200);
+}
+
+const closeModalDescricao = (event) => {
+    let overlay = document.getElementById("modal-descricao");
+    let modal = document.getElementById("modal-content-descricao");
+
+    if (!modal.contains(event.target)) {
+        modal.style.display = 'none';
+        overlay.style.display = 'none';
+        document.removeEventListener('click', handleClickOutside, false);
+    }
+}
